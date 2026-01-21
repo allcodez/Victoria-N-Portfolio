@@ -108,6 +108,7 @@ h1 {
 }
 
 .cta-button {
+    text-decoration: none; /* <--- ADD THIS LINE */
     background-color: #FDC36E;
     padding: 15px 30px;
     border-radius: 18px;
@@ -117,7 +118,9 @@ h1 {
     justify-content: center;
     transition: background-color 0.3s;
     border: 1px solid #000;
-    box-shadow: -1px 3px 2px #0000006b
+    box-shadow: -1px 3px 2px #0000006b;
+    color: #000; /* Ensures the arrow stays black and doesn't turn blue */
+    
 }
 
 .cta-button:hover {
